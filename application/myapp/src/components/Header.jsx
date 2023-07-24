@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <div className='hidden md:flex flex-row justify-between py-2 px-4  '>
                 <h3 className='text-2xl font-bold'>Justice</h3>
-                <ul className='list-none flex flex-row font-semibold cursor-pointer'>
+                <ul className='list-none flex flex-row cursor-pointer'>
                     <li className='p-1 mr-2 hover:translate-y-1'>Home</li>
                     <li className='p-1 mr-2 hover:translate-y-1'>Services</li>
                     <li className='p-1 mr-2 hover:translate-y-1'>Clients</li>
@@ -18,7 +18,7 @@ const Header = () => {
                 <button className='bg-orange-800 w-28 h-8 rounded-sm text-white font-semibold hover:bg-orange-700'>Consultation</button>
             </div>
             <div className='md:hidden h-1/2 flex justify-between py-4 px-4'>
-                <ul className={ menu ? 'list-none flex flex-col ml-2 divide-y basis-4/5 my-2 transition ease-in-out duration-500 font-semibold' : 'hidden'}>
+                <ul className={ menu ? 'list-none flex flex-col ml-2 divide-y basis-4/5 my-2 transition ease-in-out duration-500' : 'hidden'}>
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Home</li>
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Services</li>
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Clients</li>
