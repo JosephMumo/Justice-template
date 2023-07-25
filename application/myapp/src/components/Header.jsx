@@ -15,7 +15,7 @@ const Header = () => {
                     <li className='p-1 mr-2 hover:translate-y-1'>Blog</li>
                     <li className='p-1 mr-2 hover:translate-y-1'>Contact</li>
                 </ul>
-                <button className='bg-orange-800 w-28 h-8 rounded-sm text-white font-semibold hover:bg-orange-700'>Consultation</button>
+                <button className='bg-orange-800 w-28 h-8 rounded-sm text-white hover:bg-orange-700'>Consultation</button>
             </div>
             <div className='md:hidden h-1/2 flex justify-between py-4 px-4'>
                 <ul className={ menu ? 'list-none flex flex-col ml-2 divide-y basis-4/5 my-2 transition ease-in-out duration-500' : 'hidden'}>
@@ -25,7 +25,7 @@ const Header = () => {
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Blog</li>
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Contact</li>
                 </ul>
-                <div className="basis-1/5 fixed right-4 transition duration-100" onClick={changeMenu}>
+                <div className="basis-1/5  right-4 fixed transition duration-100 " onClick={changeMenu}>
                     { menu ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} /> }
                 </div>
             </div>
