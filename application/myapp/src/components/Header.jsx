@@ -25,7 +25,7 @@ const Header = () => {
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Blog</li>
                     <li className='p-2 px-4 mr-3 hover:bg-gray-100'>Contact</li>
                 </ul>
-                <div className="basis-1/5  right-4 fixed transition duration-100 " onClick={changeMenu}>
+                <div className="basis-1/5  right-4 fixed transition duration-100" onClick={changeMenu}>
                     { menu ? <AiOutlineClose size={24} /> : <AiOutlineMenu size={24} /> }
                 </div>
             </div>
