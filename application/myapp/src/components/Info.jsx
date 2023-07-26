@@ -8,7 +8,7 @@ function Info(props) {
     }
     return (
         <div className="w-{90%} bg-gray-100 rounded-md p-2 mb-1">
-            <p onClick={handleShow} className='cursor-pointer'>Q: {question}</p>
+            <p onClick={handleShow} className='cursor-pointer w-{90%}'>Q: {question}</p>
             <br />
             <p> {show && answer}</p>
         </div>

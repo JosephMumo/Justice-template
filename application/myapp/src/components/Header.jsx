@@ -8,7 +8,7 @@ const Header = () => {
         <>
             <div className='hidden md:flex flex-row justify-between py-2 px-4  '>
                 <h3 className='text-2xl font-bold'>Justice</h3>
-                <ul className='list-none flex flex-row cursor-pointer'>
+                <ul className='list-none flex flex-row cursor-pointer text-lg'>
                     <li className='p-1 mr-2 hover:translate-y-1'>Home</li>
                     <li className='p-1 mr-2 hover:translate-y-1'>Services</li>
                     <li className='p-1 mr-2 hover:translate-y-1'>Clients</li>
