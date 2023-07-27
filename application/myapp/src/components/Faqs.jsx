@@ -9,11 +9,11 @@ const Faqs = () => {
 
     return (
         <>
-            <div className='mt-5 p-3 text-center text-black'>
+            <div className='mt-5 p-8 text-center text-black'>
                 <h1 className='text-3xl'>Frequently Asked Questions</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum illo aut expedita ducimus voluptates accusantium eveniet saepe doloribus eos.</p>
             </div>
-            <div className='flex flex-col md:flex-row justify-between p-4 content-center items-center'>
+            <div className='flex flex-col md:flex-row justify-between p-8 content-center items-center'>
                 <div className='w-full md:w-{50%} flex flex-col p-2'>
                     {Data.map(item => {
                         return (
