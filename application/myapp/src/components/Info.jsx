@@ -1,4 +1,5 @@
 import React from 'react'
+import { AiOutlinePlus } from 'react-icons/ai'
 
 function Info(props) {
     const { question, answer, show, setShow } = props
@@ -8,9 +9,9 @@ function Info(props) {
     }
     return (
         <div className="w-{90%} bg-gray-100 rounded-md p-2 mb-1">
-            <p onClick={handleShow} className='cursor-pointer w-{90%}'>Q: {question}</p>
+            <p className='w-{90%}'>Q: {question}</p>
             <br />
-            <p> {show && answer}</p>
+            <p onClick={handleShow} className='cursor-pointer'>{<AiOutlinePlus />} {show && answer}</p>
         </div>
     );
 }
