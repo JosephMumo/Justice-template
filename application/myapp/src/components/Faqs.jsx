@@ -29,7 +29,7 @@ const Faqs = () => {
                     })}
             
                 </div>
-                <div className='w-full  md:w-{50%} ml-3'>
+                <div className='w-full  md:w-{50%} ml-3 grid place-items-center'>
                     <img src={logo} alt='1' className='w-96 h-96 ' />
                 </div>
             </div>
