@@ -3,7 +3,7 @@ import Form from './Form';
 
 function Hero() {
     return (
-        <div className='bg-black text-center text-white p-10 mt-3'>
+        <div className='bg-black text-center text-white p-10 mt-3 h-min-96'>
             <h1 className='text-3xl '>We Provide Effective <br /> Legal Solutions</h1>
             <br />
             <div className='p-2'>

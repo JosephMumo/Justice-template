@@ -6,7 +6,7 @@ function AppContextProvider({children}) {
     const [ menu, setMenu ] = useState(false)
 
     function changeMenu() {
-        setMenu(!menu)
+        setMenu(prev => !prev)
     }
     return(
         <AppContext.Provider value={{menu, setMenu, changeMenu}}>

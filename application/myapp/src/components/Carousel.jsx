@@ -28,10 +28,10 @@ const Carousel = () => {
   }
 
   return (
-    <div className='text-center p-3 px-9 bg-fixed object-center' style={ styles }>
+    <div className='text-center p-3 px-9 bg-fixed' style={ styles }>
       <Slider {...settings} className='h-96'>
         {data.map(item => (
-          <div key={item.id} className='objects-center'>
+          <div key={item.id}>
             <img src={item.imageUrl} className='rounded-full h-14 w-14 object-fit mt-5' />
             <h2 className='text-3xl mt-5'>{item.person}</h2>
             <br />
