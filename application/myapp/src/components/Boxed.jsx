@@ -3,6 +3,7 @@ import { SlLocationPin } from 'react-icons/sl'
 import { FiPhoneCall } from 'react-icons/fi'
 import { AiOutlineMail } from 'react-icons/ai'
 import { LuClock3 } from 'react-icons/lu'
+import MyForm from './MyForm'
 
 const Boxed = () => {
     return (
@@ -33,7 +34,9 @@ const Boxed = () => {
                     <p className='text-md'>Sat 9AM to 1PM</p>
                 </div>
             </div>
-            <div className='w-full md:w-{50%} p-3 bg-gray-50'></div>
+            <div className='w-full md:w-{50%} p-3'>
+                <MyForm />
+            </div>
         </div>
     )
 }
