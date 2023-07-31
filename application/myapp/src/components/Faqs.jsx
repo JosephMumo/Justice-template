@@ -9,7 +9,7 @@ const Faqs = () => {
 
     return (
         <>
-            <div className='mt-5 p-8 text-center text-black'>
+            <div className='mt-5 p-8 text-center text-black' id='blog'>
                 <h1 className='text-3xl'>Frequently Asked Questions</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eum illo aut expedita ducimus voluptates accusantium eveniet saepe doloribus eos.</p>
             </div>

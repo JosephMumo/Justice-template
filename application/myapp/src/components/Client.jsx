@@ -4,7 +4,7 @@ import Carousel from './Carousel';
 function Client() {
     return (
         <>
-            <div className='mt-5 p-8'>
+            <div className='mt-5 p-8' id='clients'>
                 <h1 className='text-black text-center text-3xl'>What Our Clients Say</h1>
                 <p className='text-black text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam a esse rem perferendis necessitatibus deleniti.</p>
             </div>

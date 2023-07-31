@@ -9,5 +9,6 @@
         @apply text-black;
         font-family: 'Lora', serif;
         overflow-x: hidden !important;
+        scroll-behavior: smooth;
     }
 }
