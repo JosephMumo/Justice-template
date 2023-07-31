@@ -23,12 +23,10 @@ const Carousel = () => {
     slidesToScroll: 1,
     autoplay: true,
   };
-  const styles = {
-    backgroundImage:`url(${background})`
-  }
+
 
   return (
-    <div className='text-center p-3 px-9 bg-fixed' style={ styles }>
+    <div className='text-center p-3 px-9 bg-black' >
       <Slider {...settings} className='h-96'>
         {data.map(item => (
           <div key={item.id}>
